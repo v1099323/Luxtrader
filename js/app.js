@@ -5142,7 +5142,7 @@
       }),
       window.addEventListener("scroll", () => {
         let e = window.scrollY;
-        window.innerWidth > 768 &&
+        window.innerWidth > 320 &&
           document.querySelectorAll(".section").forEach((t, s) => {
             t.offsetTop - document.querySelector(".header").clientHeight <= e &&
               (document.querySelectorAll(".header a").forEach((e) => {
