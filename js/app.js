@@ -4830,13 +4830,13 @@
               observeParents: !0,
               slidesPerView: 1,
               spaceBetween: 10,
-              autoHeight: !0,
               speed: 1e3,
               loop: !0,
               navigation: {
                 nextEl: ".control-slider-quotes__circle",
                 prevEl: "",
               },
+              breakpoints: { 320: { autoHeight: !0 }, 768: { autoHeight: !1 } },
             }),
           document.querySelector(".products-slider__slider") &&
             new ae(".products-slider__slider", {
